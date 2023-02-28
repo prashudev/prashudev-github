@@ -1,10 +1,11 @@
 .example-card {
-    max-width: 400px;
-    margin: 2%;
-  }
-  
-  .example-header-image {
-    background-image: url('../assets/PDev.jpg');
-    background-size: cover;
-  }
-  
+  max-width: 400px;
+  margin: 2%;
+  background-image: linear-gradient(to right, rgb(252, 252, 109), rgb(252, 76, 76));
+
+}
+
+.example-header-image {
+  background-image: url('../assets/PDev.jpg');
+  background-size: cover;
+}
