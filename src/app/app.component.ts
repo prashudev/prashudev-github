@@ -9,8 +9,12 @@ import { Router } from '@angular/router';
 export class AppComponent {
   title = 'blog';
   constructor(private router: Router) { }
-  
+
   takeToHome(){
     this.router.navigateByUrl('/home');
+  }
+
+  takeToDetails() {
+    this.router.navigateByUrl('/details');
   }
 }
